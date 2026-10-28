@@ -1,0 +1,54 @@
+# Build artifacts
+build/
+bin/
+gen/
+out/
+.gradle/
+
+# IDE files (IntelliJ / Android Studio)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Local configuration files
+local.properties
+.DS_Store
+
+# Captures and logs
+captures/
+*.log
+
+# Keystore files (NEVER commit these)
+*.jks
+*.keystore
+*.p12
+
+# Google Services
+google-services.json
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Environment variables (nunca commitar .env real)
+.env
+
+# Project specific files
+IA PARA DESENVOLVEDORES.pdf
+IA PARA DESENVOLVEDORES.md
+LLM.md
+AGENTS.md
+
+# Review history (JSON gerado automaticamente)
+reviews/
